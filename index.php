@@ -1,11 +1,6 @@
 <?php
 require 'states1.php'; 
-//echo '<select>';   
-//    foreach($us_state_abbrevs_names as $state_code => $state) {
-//    echo '<option value="' . $state_code . '">' . $state . '</option>';
-//    }
-//echo '</select>';
-//var_dump($us_state_abbrevs_names );
+
 
 $arr_abbr = array_keys($us_state_abbrevs_names['states']);
 sort($arr_abbr);
@@ -21,13 +16,7 @@ while($element=each($us_state_abbrevs_names)){
     echo $abbr . ' - ' . $names . '<br>';
  }
 }
-//
-//foreach ($us_state_abbrevs_names['states'] as $abbr => $names){
-//    echo $abbr . ' - ' . $names . '<br>';
-//}
-//foreach ($us_state_abbrevs_names['countries'] as $abbr => $names){
-//    echo $abbr . ' - ' . $names . '<br>';
-//}
+
 
 
 ?>    
