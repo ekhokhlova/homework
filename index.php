@@ -1,5 +1,5 @@
 <?php
-require 'states1.php'; 
+require 'states.php'; 
 
 
 $arr_abbr = array_keys($us_state_abbrevs_names['states']);
